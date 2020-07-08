@@ -9,9 +9,13 @@
 }
 
 .wrapper {
-  width: 60%;
+  width: 50%;
   margin: 50px auto;
-  box-sizing: border-box;
+}
+
+.wrapper-2 {
+  width: 80%;
+  margin: 50px auto;
 }
 
 h1 {
@@ -19,14 +23,32 @@ h1 {
   background-color: black;
   text-align: center;
   padding: 30px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
-
 
 .bg-white {
   background: white;
 }
 
-
 .pb-50 {
   padding-bottom: 50px;
+}
+
+.border-radius {
+  border-radius: 15px;
+}
+
+input, select {
+  border: 0;
+  background-color: #EAEAEA;
+  margin: 20px;
+}
+
+input:last-child {
+  color: white;
+  background-color: #FB646D;
+  border-radius: 2px;
+  padding: 10px 30px;
+  font-weight: 600;
 }
