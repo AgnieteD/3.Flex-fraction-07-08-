@@ -1,0 +1,32 @@
+* {
+  font-family: sans-serif;
+}
+
+.bg-gradient {
+  background: rgb(0, 212, 255);
+  background: linear-gradient(25deg, rgba(0, 212, 255, 1) 2%, rgba(40, 111, 182, 1) 31%, rgba(60, 60, 145, 1) 45%, rgba(50, 49, 103, 1) 64%, rgba(199, 80, 228, 1) 89%);
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  width: 60%;
+  margin: 50px auto;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 30px;
+}
+
+
+.bg-white {
+  background: white;
+}
+
+
+.pb-50 {
+  padding-bottom: 50px;
+}
